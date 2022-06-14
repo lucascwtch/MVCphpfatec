@@ -48,25 +48,25 @@
             <div class="form-group">
                 <div class="mx-auto" style="width: 500px;">
                 <label for="nome"> Nome do Jogo </label>
-                <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome do Livro" required autofocus>
+                <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome do Jogo" required autofocus>
                 </div>
             </div>
             <div class="form-group">
                 <div class="mx-auto" style="width: 500px;">
-                <label for="autor"> Nome do Programador </label>
+                <label for="programador"> Nome do Programador </label>
                 <input class="form-control" type="text" name="programador" id="programador" placeholder="Programador do Jogo" required>
         </div>
     </div>
     <div class="form-group">
     <div class="mx-auto" style="width: 500px;">
         <label for="quantidade"> Quantidade de Páginas</label>
-    <input class="form-control" type="number" id="quantidade_niveis" name="quantidade_niveis" placeholder="Quantidade de Páginas" required>
+    <input class="form-control" type="number" id="quantidade_niveis" name="quantidade_niveis" placeholder="Quantidade de Níveis" required>
     </div>
     </div>
     <div class="form-group">
     <div class="mx-auto" style="width: 500px;">
-    <label for="number">Valor unitário do Livro</label>
-    <input type="text" id="preco" name="preco" placeholder="Preço do Livro" onkeypress="formatarMoeda();" required>
+    <label for="number">Valor unitário do Jogo</label>
+    <input type="text" id="preco" name="preco" placeholder="Preço do Jogo" onkeypress="formatarMoeda();" required>
 </div>
     </div>
     <div class="form-group">
